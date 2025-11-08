@@ -5,13 +5,15 @@ export interface User {
   role?: 'user' | 'admin';
   profileImage?: string;
   bio?: string;
+  // --- YENİ EKLENENLER ---
+  isBlocked?: boolean;
+  createdAt?: string;
+  // -----------------------
 }
-
 export interface Category {
   _id: string;
   name: string;
 }
-
 export interface Post {
   _id: string;
   title: string;
