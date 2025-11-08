@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import api from '../services/api';
 import type { Category } from '../types';
-import type { Post } from '../types'; 
+
 
 const CreatePostPage = () => {
   const navigate = useNavigate();
